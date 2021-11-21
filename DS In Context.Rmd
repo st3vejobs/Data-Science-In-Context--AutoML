@@ -1,0 +1,74 @@
+---
+title: "Data Science In Context"
+author: "Shane Hylton"
+date: "11/21/2021"
+output: rmdformats::readthedown
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Automated Machine Learning
+
+### What is Automated Machine Learning?
+
+Machine Learning: Improving algorithms and outputs through explicit instruction and experience. 
+
+
+#### Supervised Machine Learning: 
+
+  Using labeled data to train the computer to predict labels for raw data.
+  Typically, the developer provides a set of human analyzed training data so that the computer    has reference points to predict uncategorized data.
+  Hands-on approach
+  
+#### Unsupervised Machine Learning: 
+
+  Using algorithms to analyze raw, unlabeled data. The pattern detection step is left to the      algorithm in this method.
+  Hands-off approach
+  
+#### Automated Machine Learning:
+
+Similar to unsupervised machine learning, the algorithms do most of the work. Automated       machine learning is unique in that it is built to be more accessible to novice data           scientists. Using software, analysts can automate all of the training steps in unsupervised machine learning. There is little to no pre-processing necessary in automated machine         learning.
+
+Microsoft Azure is one of the leading automated machine learning platforms, making data    analysis accessible to less experienced data analysts. One important element to automated machine learning, which is a focal point in Microsoft Azure, is repetition and adaptation. The program iterates through a specified amount of parameters and models to find an optimized model for the dataset. 
+
+### Use Cases
+
+#### Apple and Google Photos:
+
+These services both have machine learning features that detect and identify faces, pets, and landscapes. These services use automated machine learning combined with occasional supervision and confirmation from the end user. As new images are added to the dataset, the end user's camera roll, software analyzes the image and identifies features that it can detect. From this, users can easily view images with snow, cats, dogs, trees, and many other objects or beings with a simple search.
+
+The supervised element comes in when faces in the images are classified to a given person's name with just a single sample image that the user identifies.
+
+#### Predicted Text
+
+Google's search bar is a great example of machine learning that could be automated. When users enter the first few words of their search, recommended options based on other searches with the same first few words are displayed. This process does not necessarily require any test cases to be provided and classified, as the search engine collects the data and analyzes trends with every new search.
+
+### Further Reading
+
+Microsoft Azure: 
+
+https://docs.microsoft.com/en-us/azure/machine-learning/concept-automated-ml
+
+IBM Cloud:
+
+Introduction to machine learning. IBM has a cloud learning platform that people can use to gain skills and understanding on cloud platforms and their uses. 
+
+https://www.ibm.com/cloud/learn/machine-learning#toc-how-machin-NoVMSZI_
+
+Automated Machine Learning Deep Dive:
+
+This is an open resource text provided by the Springer Series on Challenges in Machine Learning.
+This is an excellent book for budding data scientists to learn from. Our course text does not have much information on automated machine learning, so this is a wonderful supplement to the course text. This is a higher level book that is fit for students in the MSDS program.
+
+https://library.oapen.org/viewer/web/viewer.html?file=/bitstream/handle/20.500.12657/23012/1007149.pdf?sequence=1&isAllowed=y
+
+
+### Works Cited
+
+“What Is Automated ML? Automl - Azure Machine Learning.” What Is Automated ML? AutoML - Azure Machine Learning | Microsoft Docs, https://docs.microsoft.com/en-us/azure/machine-learning/concept-automated-ml. 
+
+Hutter, Frank, Kotthoff, Lars and Vanschoren, Joaquin. *Automated Machine Learning.* Springer, 2019. 
+

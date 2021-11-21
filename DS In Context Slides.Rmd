@@ -1,0 +1,99 @@
+---
+title: "Automated Machine Learning"
+author: "Shane Hylton"
+date: "11/21/2021"
+output: slidy_presentation
+text-align: center
+footer: "DATA 607"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Three Key Types of Machine Learning
+
+- Supervised Machine Learning
+
+- Unsupervised Machine Learning
+
+- Automated Machine Learning
+
+## Supervised Machine Learning
+
+- User provides labeled data
+
+- Computer analyzes the provided data to predict labels
+
+- Hands on
+
+## Unsupervised Machine Learning
+
+- Raw, unlabeled data is provided
+
+- Algorithms detect patterns
+
+- Hands off
+
+## Automated Machine Learning
+
+- Raw data is entered into a software program
+
+- Algorithm adapts to the data
+
+- User specifies parameters for repetition
+
+- Program develops optimum models to fit the data
+
+## Use Cases for Automated Machine Learning
+
+### Apple and Google Photos
+
+- User adds photos to camera roll
+
+- Algorithms identify objects, animals, people, and landscape features
+
+- Program identifies people from images that have not been explored yet.
+
+#### Supervision
+
+- User identifies specific people by name
+
+- When people are detected, they are labeled with the provided name
+
+## Use Cases for Automated Machine Learning
+
+### Google Search
+
+- Search Bar text prediction
+
+-- Each search is a new piece of data
+
+-- Software analyzes searches in real time
+
+-- Recommended searches are provided based on previous searches
+
+## Resources for Further Exploration
+
+- Microsoft Azure
+
+https://docs.microsoft.com/en-us/azure/machine-learning/concept-automated-ml
+
+- IBM Cloud
+
+https://www.ibm.com/cloud/learn/machine-learning#toc-how-machin-NoVMSZI_
+
+- Automated Machine Learning Deep Dive
+
+https://library.oapen.org/viewer/web/viewer.html?file=/bitstream/handle/20.500.12657/23012/1007149.pdf?sequence=1&isAllowed=y
+
+
+## Works Cited
+
+- “What Is Automated ML? Automl - Azure Machine Learning.” What Is Automated ML? AutoML - Azure Machine Learning | Microsoft Docs, https://docs.microsoft.com/en-us/azure/machine-learning/concept-automated-ml.
+
+- Hutter, Frank, Kotthoff, Lars and Vanschoren, Joaquin. Automated Machine Learning. Springer, 2019.
+
+
+
